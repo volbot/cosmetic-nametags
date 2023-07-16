@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "nametags",
+	"version": "${version}",
+	"name": "nametags",
+	"description": "adds a nametag equipment slot",
+	"authors": [
+		"allomyrina volbot"
+	],
+	"contact": {
+		"homepage": "https://volbot.neocities.org/",
+		"sources": "MIT"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nametags/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.volbot.nametags.NametagsMain"
+		]
+	},
+	"mixins": [
+		"nametags.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"trinkets": ">=3",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
